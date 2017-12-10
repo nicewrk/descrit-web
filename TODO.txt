@@ -1,0 +1,37 @@
+➜  descrit-web git:(master)
+➜  descrit-web git:(master) git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+➜  descrit-web git:(master) subl .
+➜  descrit-web git:(master) npm -v
+5.1.0
+
+
+   ╭─────────────────────────────────────╮
+   │                                     │
+   │   Update available 5.1.0 → 5.5.1    │
+   │     Run npm i -g npm to update      │
+   │                                     │
+   ╰─────────────────────────────────────╯
+
+➜  descrit-web git:(master) npm i -g npm
+/Users/thebigapple/.nvm/versions/node/v6.7.0/bin/npm -> /Users/thebigapple/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/npm-cli.js
+/Users/thebigapple/.nvm/versions/node/v6.7.0/bin/npx -> /Users/thebigapple/.nvm/versions/node/v6.7.0/lib/node_modules/npm/bin/npx-cli.js
++ npm@5.5.1
+added 124 packages, removed 21 packages and updated 39 packages in 15.695s
+➜  descrit-web git:(master)
+➜  descrit-web git:(master) ✗ mv src/App.* src/components
+➜  descrit-web git:(master) ✗ mv src/logo.svg src/components
+➜  descrit-web git:(master) ✗ mv src/*.css src/css
+➜  descrit-web git:(master) ✗
+
+
+--- 
+
+➜  descrit-web git:(master) ✗ mv src/App.* src/components
+➜  descrit-web git:(master) ✗ mv src/logo.svg src/components
+➜  descrit-web git:(master) ✗ mv src/*.css src/css
+➜  descrit-web git:(master) ✗
