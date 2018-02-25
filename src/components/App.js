@@ -7,8 +7,7 @@ import {
   Switch
 } from 'react-router-dom';
 import './App.css';
-import Design from './Design.js';
-import Designs from './Designs.js';
+import {Design, Designs, NewDesign} from './Designs';
 import NoMatch from './NoMatch';
 
 class App extends React.Component {
@@ -29,6 +28,7 @@ class App extends React.Component {
             <Switch>
               <Redirect exact from="/" to="/designs"/>
               <Route exact path="/designs" component={Designs}/>
+              <Route path="/designs/new" component={NewDesign}/>
               <Route path="/designs/:designId" component={Design}/>
               <Route component={NoMatch} />
             </Switch>
